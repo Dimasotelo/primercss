@@ -1,0 +1,95 @@
+header {
+  background: #5b7989;
+   border-radius: 10px 10px 0px 0px;
+   padding: 15px;
+   color: white;
+   font-size: 32px;
+   text-align: left;
+   text-shadow: 2px 2px 2px #02010a;
+}
+
+body {
+  font-family: 'Dancing Script';
+     background-color: #02010A;
+     margin: 0px;
+     width:100%;
+}
+
+.contenido {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.paisaje1 {
+  text-align: center;
+ background-color: #82c3a6;
+  }
+
+.paisaje {
+  -webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+  filter: blur(10px);
+}
+
+.paisaje3 {
+  -webkit-filter: sepia(90%); /* Chrome, Safari, Opera */
+  filter: sepia(90%);
+}
+
+.paisaje2 {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.paisaje4 {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.paisaje6{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+
+}
+
+.pie_de_pagina {
+  margin: 0px;
+  background: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: flex-start;
+}
+/*paisajes*/
+@media screen and (min-width: 900px) { #paisajes2 {display: flex; flex-direction:column;}
+@media screen and (max-width: 899px) {#paisajes2 {display: flex; flex-direction:column; }
